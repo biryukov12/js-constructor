@@ -1,5 +1,5 @@
-# js-constructor
-A simple website builder on pure JavaScript (in dev...).
+# A pure JS site constructor
+A simple site constructor on pure JavaScript (in dev...)
 
 ### You can to add or edit:
 - title;
