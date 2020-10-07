@@ -27,6 +27,8 @@
 
 img {
     max-width: 100px;
-    display:block;
-    margin:auto;
+}
+
+p {
+    margin-bottom: 0;
 }
