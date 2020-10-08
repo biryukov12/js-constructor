@@ -7,6 +7,7 @@ export function col(content) {
 }
 
 export function css(styles = {}) {
+    if (typeof styles === 'string') return styles
     return Object.keys(styles).map(key => `${key}: ${styles[key]}`).join(';')
 }
 
@@ -22,6 +23,6 @@ export function block(type) {
       </div>
       <button type="submit" class="btn btn-primary btn-sm">Добавить</button>
     </form>
-    <hr />
+    <hr/>
   `
 }

@@ -29,24 +29,13 @@ export class TextBlock extends Block {
     }
 }
 
-export class ColsBlock extends Block {
+export class HrBlock extends Block {
     constructor(value, options) {
         super(value, options)
     }
 
     toHTML() {
         const {styles} = this.options
-        return row(this.value.map(col).join(''), css(styles))
-    }
-}
-
-export class ImageBlock extends Block {
-    constructor(value, options) {
-        super(value, options)
-    }
-
-    toHTML() {
-        const {styles} = this.options
-        return row(`<img src="${this.value}">`, css(styles))
+        return row(col(`<hr class="hr-shelf">`), css(styles))
     }
 }
