@@ -1,6 +1,6 @@
 import {TitleBlock, TextBlock, HrBlock} from "./classes/bls";
 
-const text = 'A simple site constructor on pure JavaScript (in dev...). ' +
+const text = 'A simple site constructor on pure JavaScript. ' +
     'Now you can to add some title/text and their styles.'
 
 export const model = [
